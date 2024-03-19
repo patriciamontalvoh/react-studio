@@ -1,9 +1,33 @@
-/* Add styling for your page here */
-
-.App {
-
+/* OK: Add styling for your page here */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.BakeryItem {
-  
+.App {
+  margin: 6%;
+  display: flex;
+  flex-direction: column;
+ 
+  .main-page{
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+  }
+
+  .items-page{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    flex-wrap: wrap;
+  }
+
+  .cart-page{
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+  }
+
 }
